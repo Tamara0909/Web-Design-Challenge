@@ -1,0 +1,23 @@
+
+body {
+    background-color: beige;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.box {
+    margin-top: 30px;
+    padding: 10px 25px 10px 25px;
+}
+
+.image-preview {
+    height: 140px;
+    width: 140px;
+}
+
+.box-image {
+    height: 400px;
+    width: 600px;
+}

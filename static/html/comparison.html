@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Visualization Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Home</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Plots
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="temperature.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="table.html">Table</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row box bg-white">
+            <div class="col-xs-12">
+                <h1>Comparison: Latitude vs. X</h1>
+                <p>Click any plot to get an in-depth analysis</p>
+            </div>
+            <div class="col-md-6">
+                <h2>vs. Max Temperature</h2>
+                <a href="../html/temperature.html"><img src="../images/Fig1.png" alt="Latitude vs. Max Temperature"
+                        class="box-image"></a>
+            </div>
+            <div class="col-md-6">
+                <h2>vs. Humidity</h2>
+                <a href="../html/humidity.html"><img src="../images/Fig2.png" alt="Latitude vs. Humidity"
+                        class="box-image"></a>
+            </div>
+            <div class="col-md-6">
+                <h2>vs. Cloudiness</h2>
+                <a href="../html/cloudiness.html"><img src="../images/Fig3.png" alt="Latitude vs. Cloudiness"
+                        class="box-image"></a>
+            </div>
+            <div class="col-md-6">
+                <h2>vs. Wind Speed</h2>
+                <a href="../html/wind.html"><img src="../images/Fig4.png" alt="Latitude vs. Wind Speed"
+                        class="box-image"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
